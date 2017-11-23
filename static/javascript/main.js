@@ -40,7 +40,7 @@ $(document).ready(function() {
   })(jQuery);
 
   $('#mailchimp-form').mailchimpSingleOptIn({
-    listID: '4b2836518e',
+    listID: '160a9f2989',
     url: 'https://bsc-mailchimp.herokuapp.com/',
     onSubmit: function() {
       $('#mailchimp-outlet').text('Submitting...');
